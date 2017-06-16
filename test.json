@@ -1,180 +1,182 @@
 {
-    "version": "2.0",
-    "head": {
-        "title": "Electric River",
-        "dateCreated": "Thu, 15 Jun 2017 18:42:38 GMT",
-        "dateModified": "Fri, 16 Jun 2017 20:55:57 GMT",
-        "ownerId": "https://twitter.com/davewiner/",
-        "ownerName": "Dave Winer",
-        "ownerTwitterScreenName": "davewiner",
-        "expansionState": "1,2,4,8,15,16,22",
-        "lastCursor": "6",
-        "longTitle": "",
-        "description": "",
-        "flDisqusComments": "true",
-        "disqusGroup": "scripting"
-    },
-    "body": {
-        "subs": [
-            {
-                "text": "Electric River howto",
-                "created": "Thu, 15 Jun 2017 18:42:38 GMT",
-                "type": "blogpost",
-                "subs": [
-                    {
-                        "text": "Welcome",
-                        "created": "Thu, 15 Jun 2017 18:43:06 GMT",
-                        "subs": [
-                            {
-                                "text": "This is a quick guide to using Electric River on your desktop. ",
-                                "created": "Thu, 15 Jun 2017 18:43:09 GMT"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "What is it?",
-                        "created": "Thu, 15 Jun 2017 18:43:31 GMT",
-                        "subs": [
-                            {
-                                "text": "It's a <a href=\"http://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html\">river of news</a> feed reader that runs on your Mac.",
-                                "created": "Thu, 15 Jun 2017 18:43:34 GMT"
-                            },
-                            {
-                                "text": "That means that it's periodically reading feeds and showing you the newest stuff in a single page display you scroll through.  ",
-                                "created": "Thu, 15 Jun 2017 18:44:28 GMT"
-                            },
-                            {
-                                "text": "Up until now in order to run a river you had to run it on your own server, but thanks to some <a href=\"https://electron.atom.io/\">new technology</a> it's now possible to do it on a Mac. All you need is a net connection.",
-                                "created": "Thu, 15 Jun 2017 18:45:08 GMT"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Getting started",
-                        "created": "Thu, 15 Jun 2017 18:46:27 GMT",
-                        "subs": [
-                            {
-                                "text": "1. <a href=\"http://rss2.io/electric/\">Download</a> the app. ",
-                                "created": "Thu, 15 Jun 2017 18:46:35 GMT"
-                            },
-                            {
-                                "text": "2. Decompress the archive. Right click on the file in the Finder and choose the <i>Open with</i> sub-menu, then choose <i>Archive Utility.</i>",
-                                "created": "Thu, 15 Jun 2017 18:46:41 GMT"
-                            },
-                            {
-                                "text": "3. You can run the file from your Downloads folder if you want, or move it to your Applications folder. ",
-                                "created": "Thu, 15 Jun 2017 18:47:33 GMT"
-                            },
-                            {
-                                "text": "4. Double-click the app to launch it.",
-                                "created": "Thu, 15 Jun 2017 18:48:01 GMT"
-                            },
-                            {
-                                "text": "5. It may take up to a minute before you see new items. We've programmed it to follow some popular feeds so you won't have to stare at a blank river when you get started. :-)",
-                                "created": "Thu, 15 Jun 2017 18:48:08 GMT"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Editing the feeds list",
-                        "created": "Thu, 15 Jun 2017 21:33:23 GMT",
-                        "subs": [
-                            {
-                                "text": "Choose <i>List editor</i> in the Pages menu.",
-                                "created": "Thu, 15 Jun 2017 21:33:29 GMT"
-                            },
-                            {
-                                "text": "A list of the feeds appears. In the left column is the name of the feed. You can put anything you like there, its purpose is to help you remember what the feed is. In the right column is the URL of the feed. ",
-                                "created": "Thu, 15 Jun 2017 21:33:53 GMT"
-                            },
-                            {
-                                "text": "To add a new feed, click the Add button. Paste the URL in the right column, add a descriptive name in the left column. ",
-                                "created": "Thu, 15 Jun 2017 21:34:32 GMT"
-                            },
-                            {
-                                "text": "When you're done editing, click the Save button.",
-                                "created": "Thu, 15 Jun 2017 21:34:41 GMT"
-                            },
-                            {
-                                "text": "As soon as you save the list, Electric River will start reading the feed.",
-                                "created": "Thu, 15 Jun 2017 21:34:51 GMT"
-                            },
-                            {
-                                "text": "Return to the river view by choosing <i>River</i> from the same menu.",
-                                "created": "Thu, 15 Jun 2017 22:04:43 GMT"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Examples",
-                        "created": "Thu, 15 Jun 2017 21:57:09 GMT",
-                        "subs": [
-                            {
-                                "text": "Here are some examples of rivers.",
-                                "created": "Thu, 15 Jun 2017 18:45:42 GMT",
-                                "subs": [
-                                    {
-                                        "text": "Washington Post River",
-                                        "created": "Thu, 15 Jun 2017 18:45:58 GMT",
-                                        "type": "link",
-                                        "url": "http://washpost.newsriver.org/"
-                                    },
-                                    {
-                                        "text": "NY Times River",
-                                        "created": "Thu, 15 Jun 2017 18:46:05 GMT",
-                                        "type": "link",
-                                        "url": "http://nytimesriver.com/"
-                                    },
-                                    {
-                                        "text": "Politics River",
-                                        "created": "Thu, 15 Jun 2017 18:46:09 GMT",
-                                        "type": "link",
-                                        "url": "http://politics.newsriver.org/"
-                                    },
-                                    {
-                                        "text": "MLB River",
-                                        "created": "Thu, 15 Jun 2017 18:46:13 GMT",
-                                        "type": "link",
-                                        "url": "http://mlbriver.com/"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "text": "The Main menu",
-                        "created": "Thu, 15 Jun 2017 21:35:08 GMT",
-                        "subs": [
-                            {
-                                "text": "<i>Dashboard</i> opens a window that shows you how many feeds have been read, how many new stories were found, and how long since the last feed was read. ",
-                                "created": "Thu, 15 Jun 2017 21:35:37 GMT"
-                            },
-                            {
-                                "text": "<i>Open River5 folder</i> opens the folder that contains the files that configure River5, the engine of the feed reader. You can look at the files that control how it works. You can manage the Lists folder yourself. For information on how this works, see the <a href=\"https://github.com/scripting/river5/blob/master/docs/CONFIG.md\">docs</a> on the River5 website. ",
-                                "created": "Thu, 15 Jun 2017 21:36:38 GMT"
-                            },
-                            {
-                                "text": "<i>Read all feeds now</i> does what it says. ;-)",
-                                "created": "Thu, 15 Jun 2017 21:37:46 GMT"
-                            },
-                            {
-                                "text": "<i>Settings</i> allows you to control whether podcasts are downloaded and where they are downloaded to. You can also decide to open the Javascript Tools when Electric River starts up. You might want to do this if you're helping the developer find problems with the software. ",
-                                "created": "Thu, 15 Jun 2017 21:38:07 GMT"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Questions?",
-                        "created": "Thu, 15 Jun 2017 22:36:05 GMT",
-                        "subs": [
-                            {
-                                "text": "You can leave a comment below. Or join the River5 <a href=\"https://groups.google.com/forum/?fromgroups#!forum/river5\">mail list</a>. Or post an <a href=\"https://github.com/scripting/Scripting-News/issues\">issue</a> in the Scripting News repository on GitHub.",
-                                "created": "Thu, 15 Jun 2017 22:36:07 GMT"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+    "opml": {
+        "version": "2.0",
+        "head": {
+            "title": "Electric River",
+            "dateCreated": "Thu, 15 Jun 2017 18:42:38 GMT",
+            "dateModified": "Fri, 16 Jun 2017 20:55:57 GMT",
+            "ownerId": "https://twitter.com/davewiner/",
+            "ownerName": "Dave Winer",
+            "ownerTwitterScreenName": "davewiner",
+            "expansionState": "1,2,4,8,15,16,22",
+            "lastCursor": "6",
+            "longTitle": "",
+            "description": "",
+            "flDisqusComments": "true",
+            "disqusGroup": "scripting"
+        },
+        "body": {
+            "subs": [
+                {
+                    "text": "Electric River howto",
+                    "created": "Thu, 15 Jun 2017 18:42:38 GMT",
+                    "type": "blogpost",
+                    "subs": [
+                        {
+                            "text": "Welcome",
+                            "created": "Thu, 15 Jun 2017 18:43:06 GMT",
+                            "subs": [
+                                {
+                                    "text": "This is a quick guide to using Electric River on your desktop. ",
+                                    "created": "Thu, 15 Jun 2017 18:43:09 GMT"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "What is it?",
+                            "created": "Thu, 15 Jun 2017 18:43:31 GMT",
+                            "subs": [
+                                {
+                                    "text": "It's a <a href=\"http://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html\">river of news</a> feed reader that runs on your Mac.",
+                                    "created": "Thu, 15 Jun 2017 18:43:34 GMT"
+                                },
+                                {
+                                    "text": "That means that it's periodically reading feeds and showing you the newest stuff in a single page display you scroll through.  ",
+                                    "created": "Thu, 15 Jun 2017 18:44:28 GMT"
+                                },
+                                {
+                                    "text": "Up until now in order to run a river you had to run it on your own server, but thanks to some <a href=\"https://electron.atom.io/\">new technology</a> it's now possible to do it on a Mac. All you need is a net connection.",
+                                    "created": "Thu, 15 Jun 2017 18:45:08 GMT"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Getting started",
+                            "created": "Thu, 15 Jun 2017 18:46:27 GMT",
+                            "subs": [
+                                {
+                                    "text": "1. <a href=\"http://rss2.io/electric/\">Download</a> the app. ",
+                                    "created": "Thu, 15 Jun 2017 18:46:35 GMT"
+                                },
+                                {
+                                    "text": "2. Decompress the archive. Right click on the file in the Finder and choose the <i>Open with</i> sub-menu, then choose <i>Archive Utility.</i>",
+                                    "created": "Thu, 15 Jun 2017 18:46:41 GMT"
+                                },
+                                {
+                                    "text": "3. You can run the file from your Downloads folder if you want, or move it to your Applications folder. ",
+                                    "created": "Thu, 15 Jun 2017 18:47:33 GMT"
+                                },
+                                {
+                                    "text": "4. Double-click the app to launch it.",
+                                    "created": "Thu, 15 Jun 2017 18:48:01 GMT"
+                                },
+                                {
+                                    "text": "5. It may take up to a minute before you see new items. We've programmed it to follow some popular feeds so you won't have to stare at a blank river when you get started. :-)",
+                                    "created": "Thu, 15 Jun 2017 18:48:08 GMT"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Editing the feeds list",
+                            "created": "Thu, 15 Jun 2017 21:33:23 GMT",
+                            "subs": [
+                                {
+                                    "text": "Choose <i>List editor</i> in the Pages menu.",
+                                    "created": "Thu, 15 Jun 2017 21:33:29 GMT"
+                                },
+                                {
+                                    "text": "A list of the feeds appears. In the left column is the name of the feed. You can put anything you like there, its purpose is to help you remember what the feed is. In the right column is the URL of the feed. ",
+                                    "created": "Thu, 15 Jun 2017 21:33:53 GMT"
+                                },
+                                {
+                                    "text": "To add a new feed, click the Add button. Paste the URL in the right column, add a descriptive name in the left column. ",
+                                    "created": "Thu, 15 Jun 2017 21:34:32 GMT"
+                                },
+                                {
+                                    "text": "When you're done editing, click the Save button.",
+                                    "created": "Thu, 15 Jun 2017 21:34:41 GMT"
+                                },
+                                {
+                                    "text": "As soon as you save the list, Electric River will start reading the feed.",
+                                    "created": "Thu, 15 Jun 2017 21:34:51 GMT"
+                                },
+                                {
+                                    "text": "Return to the river view by choosing <i>River</i> from the same menu.",
+                                    "created": "Thu, 15 Jun 2017 22:04:43 GMT"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Examples",
+                            "created": "Thu, 15 Jun 2017 21:57:09 GMT",
+                            "subs": [
+                                {
+                                    "text": "Here are some examples of rivers.",
+                                    "created": "Thu, 15 Jun 2017 18:45:42 GMT",
+                                    "subs": [
+                                        {
+                                            "text": "Washington Post River",
+                                            "created": "Thu, 15 Jun 2017 18:45:58 GMT",
+                                            "type": "link",
+                                            "url": "http://washpost.newsriver.org/"
+                                        },
+                                        {
+                                            "text": "NY Times River",
+                                            "created": "Thu, 15 Jun 2017 18:46:05 GMT",
+                                            "type": "link",
+                                            "url": "http://nytimesriver.com/"
+                                        },
+                                        {
+                                            "text": "Politics River",
+                                            "created": "Thu, 15 Jun 2017 18:46:09 GMT",
+                                            "type": "link",
+                                            "url": "http://politics.newsriver.org/"
+                                        },
+                                        {
+                                            "text": "MLB River",
+                                            "created": "Thu, 15 Jun 2017 18:46:13 GMT",
+                                            "type": "link",
+                                            "url": "http://mlbriver.com/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "text": "The Main menu",
+                            "created": "Thu, 15 Jun 2017 21:35:08 GMT",
+                            "subs": [
+                                {
+                                    "text": "<i>Dashboard</i> opens a window that shows you how many feeds have been read, how many new stories were found, and how long since the last feed was read. ",
+                                    "created": "Thu, 15 Jun 2017 21:35:37 GMT"
+                                },
+                                {
+                                    "text": "<i>Open River5 folder</i> opens the folder that contains the files that configure River5, the engine of the feed reader. You can look at the files that control how it works. You can manage the Lists folder yourself. For information on how this works, see the <a href=\"https://github.com/scripting/river5/blob/master/docs/CONFIG.md\">docs</a> on the River5 website. ",
+                                    "created": "Thu, 15 Jun 2017 21:36:38 GMT"
+                                },
+                                {
+                                    "text": "<i>Read all feeds now</i> does what it says. ;-)",
+                                    "created": "Thu, 15 Jun 2017 21:37:46 GMT"
+                                },
+                                {
+                                    "text": "<i>Settings</i> allows you to control whether podcasts are downloaded and where they are downloaded to. You can also decide to open the Javascript Tools when Electric River starts up. You might want to do this if you're helping the developer find problems with the software. ",
+                                    "created": "Thu, 15 Jun 2017 21:38:07 GMT"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Questions?",
+                            "created": "Thu, 15 Jun 2017 22:36:05 GMT",
+                            "subs": [
+                                {
+                                    "text": "You can leave a comment below. Or join the River5 <a href=\"https://groups.google.com/forum/?fromgroups#!forum/river5\">mail list</a>. Or post an <a href=\"https://github.com/scripting/Scripting-News/issues\">issue</a> in the Scripting News repository on GitHub.",
+                                    "created": "Thu, 15 Jun 2017 22:36:07 GMT"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }
