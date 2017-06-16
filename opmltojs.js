@@ -48,14 +48,15 @@ function parse (opmltext, callback) {
 					}
 				}
 			}
-		return (deststruct);
 		}
 	var options = {
 		explicitArray: false
 		};
 	xml2js.parseString (opmltext, options, function (err, jstruct) {
-		var deststruct = new Object ();
-		var theOutline = convert (jstruct.opml, deststruct);
+		var theOutline = {
+			opml: new Object ()
+			}
+		convert (jstruct.opml, theOutline.opml);
 		callback (theOutline);
 		});
 	}

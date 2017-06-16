@@ -3,12 +3,12 @@
     "head": {
         "title": "Electric River",
         "dateCreated": "Thu, 15 Jun 2017 18:42:38 GMT",
-        "dateModified": "Thu, 15 Jun 2017 22:38:06 GMT",
+        "dateModified": "Fri, 16 Jun 2017 20:55:57 GMT",
         "ownerId": "https://twitter.com/davewiner/",
         "ownerName": "Dave Winer",
         "ownerTwitterScreenName": "davewiner",
-        "expansionState": "1,8",
-        "lastCursor": "7",
+        "expansionState": "1,2,4,8,15,16,22",
+        "lastCursor": "6",
         "longTitle": "",
         "description": "",
         "flDisqusComments": "true",
@@ -26,7 +26,7 @@
                         "created": "Thu, 15 Jun 2017 18:43:06 GMT",
                         "subs": [
                             {
-                                "text": "This is a quick guide to using Electric River on your Mac. ",
+                                "text": "This is a quick guide to using Electric River on your desktop. ",
                                 "created": "Thu, 15 Jun 2017 18:43:09 GMT"
                             }
                         ]
@@ -40,48 +40,12 @@
                                 "created": "Thu, 15 Jun 2017 18:43:34 GMT"
                             },
                             {
-                                "text": "That means that it's periodically reading feeds you tell it to and showing you the newest stuff in a single page display. ",
+                                "text": "That means that it's periodically reading feeds and showing you the newest stuff in a single page display you scroll through.  ",
                                 "created": "Thu, 15 Jun 2017 18:44:28 GMT"
                             },
                             {
-                                "text": "Up until now in order to run a river of news reader you had to run your own server, but thanks to some <a href=\"https://electron.atom.io/\">new technology</a> it's now possible to do it on a Mac. ",
+                                "text": "Up until now in order to run a river you had to run it on your own server, but thanks to some <a href=\"https://electron.atom.io/\">new technology</a> it's now possible to do it on a Mac. All you need is a net connection.",
                                 "created": "Thu, 15 Jun 2017 18:45:08 GMT"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Examples",
-                        "created": "Thu, 15 Jun 2017 21:57:09 GMT",
-                        "subs": [
-                            {
-                                "text": "Here are some examples of rivers of news.",
-                                "created": "Thu, 15 Jun 2017 18:45:42 GMT",
-                                "subs": [
-                                    {
-                                        "text": "Washington Post River",
-                                        "created": "Thu, 15 Jun 2017 18:45:58 GMT",
-                                        "type": "link",
-                                        "url": "http://washpost.newsriver.org/"
-                                    },
-                                    {
-                                        "text": "NY Times River",
-                                        "created": "Thu, 15 Jun 2017 18:46:05 GMT",
-                                        "type": "link",
-                                        "url": "http://nytimesriver.com/"
-                                    },
-                                    {
-                                        "text": "Politics River",
-                                        "created": "Thu, 15 Jun 2017 18:46:09 GMT",
-                                        "type": "link",
-                                        "url": "http://politics.newsriver.org/"
-                                    },
-                                    {
-                                        "text": "MLB River",
-                                        "created": "Thu, 15 Jun 2017 18:46:13 GMT",
-                                        "type": "link",
-                                        "url": "http://mlbriver.com/"
-                                    }
-                                ]
                             }
                         ]
                     },
@@ -138,6 +102,42 @@
                             {
                                 "text": "Return to the river view by choosing <i>River</i> from the same menu.",
                                 "created": "Thu, 15 Jun 2017 22:04:43 GMT"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Examples",
+                        "created": "Thu, 15 Jun 2017 21:57:09 GMT",
+                        "subs": [
+                            {
+                                "text": "Here are some examples of rivers.",
+                                "created": "Thu, 15 Jun 2017 18:45:42 GMT",
+                                "subs": [
+                                    {
+                                        "text": "Washington Post River",
+                                        "created": "Thu, 15 Jun 2017 18:45:58 GMT",
+                                        "type": "link",
+                                        "url": "http://washpost.newsriver.org/"
+                                    },
+                                    {
+                                        "text": "NY Times River",
+                                        "created": "Thu, 15 Jun 2017 18:46:05 GMT",
+                                        "type": "link",
+                                        "url": "http://nytimesriver.com/"
+                                    },
+                                    {
+                                        "text": "Politics River",
+                                        "created": "Thu, 15 Jun 2017 18:46:09 GMT",
+                                        "type": "link",
+                                        "url": "http://politics.newsriver.org/"
+                                    },
+                                    {
+                                        "text": "MLB River",
+                                        "created": "Thu, 15 Jun 2017 18:46:13 GMT",
+                                        "type": "link",
+                                        "url": "http://mlbriver.com/"
+                                    }
+                                ]
                             }
                         ]
                     },
