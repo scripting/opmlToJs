@@ -24,5 +24,7 @@ Added new exported function opmlify. It turns an outline structure returned by o
 
 Improved the example program, used the canonical example OPML file to test with. It is in its own folder with its own package.json file, so it's a better model of how an app might use the package. 
 
+Add a <i>generator</i> element to the head section after we parse the OPML text, following the <a href="http://cyber.harvard.edu/rss/rss.html#optionalChannelElements">example</a> of RSS 2.0. 
+
 Commented some debugging code. 
 

@@ -1,4 +1,4 @@
-var myProductName = "opmltojs"; myVersion = "0.4.5";
+var myProductName = "opmltojs"; myVersion = "0.4.6";
 
 /*  The MIT License (MIT)
 	Copyright (c) 2014-2017 Dave Winer
@@ -36,6 +36,13 @@ function isScalar (obj) {
 	}
 
 function parse (opmltext, callback) {
+	function addGenerator (theOpml) { //follow the example of RSS 2.0
+		try {
+			theOpml.head.generator = myProductName + " v" + myVersion;
+			}
+		catch (err) {
+			}
+		}
 	function convert (sourcestruct, deststruct) {
 		var atts = sourcestruct ["$"];
 		if (atts !== undefined) {
@@ -82,6 +89,7 @@ function parse (opmltext, callback) {
 			opml: new Object ()
 			}
 		convert (jstruct.opml, theOutline.opml);
+		addGenerator (jstruct.opml); //8/6/17 by DW
 		callback (theOutline);
 		});
 	}
