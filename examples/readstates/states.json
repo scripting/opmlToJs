@@ -1,0 +1,235 @@
+{
+    "opml": {
+        "version": "2.0",
+        "head": {
+            "title": "states.opml",
+            "dateCreated": "Tue, 15 Mar 2005 16:35:45 GMT",
+            "dateModified": "Thu, 14 Jul 2005 23:41:05 GMT",
+            "ownerName": "Dave Winer",
+            "ownerEmail": "dave@scripting.com",
+            "expansionState": "1, 6, 13, 16, 18, 20",
+            "vertScrollState": "1",
+            "windowTop": "106",
+            "windowLeft": "106",
+            "windowBottom": "558",
+            "windowRight": "479"
+        },
+        "body": {
+            "subs": [
+                {
+                    "text": "United States",
+                    "subs": [
+                        {
+                            "text": "Far West",
+                            "subs": [
+                                {
+                                    "text": "Alaska"
+                                },
+                                {
+                                    "text": "California"
+                                },
+                                {
+                                    "text": "Hawaii"
+                                },
+                                {
+                                    "text": "Nevada",
+                                    "subs": [
+                                        {
+                                            "text": "Reno",
+                                            "created": "Tue, 12 Jul 2005 23:56:35 GMT"
+                                        },
+                                        {
+                                            "text": "Las Vegas",
+                                            "created": "Tue, 12 Jul 2005 23:56:37 GMT"
+                                        },
+                                        {
+                                            "text": "Ely",
+                                            "created": "Tue, 12 Jul 2005 23:56:39 GMT"
+                                        },
+                                        {
+                                            "text": "Gerlach",
+                                            "created": "Tue, 12 Jul 2005 23:56:47 GMT"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Oregon"
+                                },
+                                {
+                                    "text": "Washington"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Great Plains",
+                            "subs": [
+                                {
+                                    "text": "Kansas"
+                                },
+                                {
+                                    "text": "Nebraska"
+                                },
+                                {
+                                    "text": "North Dakota"
+                                },
+                                {
+                                    "text": "Oklahoma"
+                                },
+                                {
+                                    "text": "South Dakota"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Mid-Atlantic",
+                            "subs": [
+                                {
+                                    "text": "Delaware"
+                                },
+                                {
+                                    "text": "Maryland"
+                                },
+                                {
+                                    "text": "New Jersey"
+                                },
+                                {
+                                    "text": "New York"
+                                },
+                                {
+                                    "text": "Pennsylvania"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Midwest",
+                            "subs": [
+                                {
+                                    "text": "Illinois"
+                                },
+                                {
+                                    "text": "Indiana"
+                                },
+                                {
+                                    "text": "Iowa"
+                                },
+                                {
+                                    "text": "Kentucky"
+                                },
+                                {
+                                    "text": "Michigan"
+                                },
+                                {
+                                    "text": "Minnesota"
+                                },
+                                {
+                                    "text": "Missouri"
+                                },
+                                {
+                                    "text": "Ohio"
+                                },
+                                {
+                                    "text": "West Virginia"
+                                },
+                                {
+                                    "text": "Wisconsin"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Mountains",
+                            "subs": [
+                                {
+                                    "text": "Colorado"
+                                },
+                                {
+                                    "text": "Idaho"
+                                },
+                                {
+                                    "text": "Montana"
+                                },
+                                {
+                                    "text": "Utah"
+                                },
+                                {
+                                    "text": "Wyoming"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "New England",
+                            "subs": [
+                                {
+                                    "text": "Connecticut"
+                                },
+                                {
+                                    "text": "Maine"
+                                },
+                                {
+                                    "text": "Massachusetts"
+                                },
+                                {
+                                    "text": "New Hampshire"
+                                },
+                                {
+                                    "text": "Rhode Island"
+                                },
+                                {
+                                    "text": "Vermont"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "South",
+                            "subs": [
+                                {
+                                    "text": "Alabama"
+                                },
+                                {
+                                    "text": "Arkansas"
+                                },
+                                {
+                                    "text": "Florida"
+                                },
+                                {
+                                    "text": "Georgia"
+                                },
+                                {
+                                    "text": "Louisiana"
+                                },
+                                {
+                                    "text": "Mississippi"
+                                },
+                                {
+                                    "text": "North Carolina"
+                                },
+                                {
+                                    "text": "South Carolina"
+                                },
+                                {
+                                    "text": "Tennessee"
+                                },
+                                {
+                                    "text": "Virginia"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Southwest",
+                            "subs": [
+                                {
+                                    "text": "Arizona"
+                                },
+                                {
+                                    "text": "New Mexico"
+                                },
+                                {
+                                    "text": "Texas"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
