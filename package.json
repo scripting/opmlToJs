@@ -3,7 +3,7 @@
 	"description": "Pass in some OPML text, get back a JavaScript object.",
 	"author": "Dave Winer <dave@smallpicture.com>",
 	"license": "MIT",
-	"version": "0.4.4",
+	"version": "0.4.5",
 	"main": "opmltojs.js",
 	"repository": {
 		"type": "git",

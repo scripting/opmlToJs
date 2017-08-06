@@ -1,4 +1,4 @@
-var myProductName = "opmltojs"; myVersion = "0.4.4";
+var myProductName = "opmltojs"; myVersion = "0.4.5";
 
 /*  The MIT License (MIT)
 	Copyright (c) 2014-2017 Dave Winer
@@ -123,6 +123,5 @@ function opmlify (theOutline, fname) { //returns the opmltext for the outline --
 		addSubs (theOutline.opml.body.subs);
 		add ("</body>"); indentlevel--;
 	add ("</opml>"); indentlevel--;
-	console.log ("opmlify: opmltext == \n" + opmltext);
 	return (opmltext);
 	}

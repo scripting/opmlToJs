@@ -16,7 +16,11 @@ See the <a href="https://github.com/scripting/opmlToJs/blob/master/test.js">test
 
 ### Updates
 
-##### v0.4.4 -- 8/4/6 by DW
+##### v0.4.5 -- 8/4/6 by DW
 
 Added new exported function opmlify. It turns an outline structure returned by opmltojs.parse into the equivalent OPML text. It's the other side of parsing, serializing. 
+
+Improved the example program, used the canonical example OPML file to test with. It is in its own folder with its own package.json file, so it's a better model of how an app might use the package. 
+
+Commented some debugging code. 
 
