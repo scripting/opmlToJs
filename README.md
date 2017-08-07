@@ -16,6 +16,8 @@ Note this package does not expand OPML includes.
 
 See the <a href="https://github.com/scripting/opmlToJs/tree/master/examples/readstates">readstates</a> app for an example of how to call it. 
 
+A blog post <a href="http://scripting.com/2017/08/07.html#a093801">announcing</a> opmlToJs.
+
 ### Updates
 
 ##### v0.4.5 -- 8/4/6 by DW
