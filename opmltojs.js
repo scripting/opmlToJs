@@ -1,4 +1,4 @@
-var myProductName = "opmltojs"; myVersion = "0.4.7";
+var myProductName = "opmltojs"; myVersion = "0.4.8";
 
 /*  The MIT License (MIT)
 	Copyright (c) 2014-2017 Dave Winer
@@ -24,6 +24,7 @@ var myProductName = "opmltojs"; myVersion = "0.4.7";
 
 exports.parse = parse; 
 exports.opmlify = opmlify; //8/6/17 by DW
+exports.visitSubs = visitSubs; //8/12/17 by DW
 
 const xml2js = require ("xml2js");
 const utils = require ("daveutils");
@@ -33,6 +34,22 @@ function isScalar (obj) {
 		return (false);
 		}
 	return (true);
+	}
+function visitSubs (subs, visit) { //8/12/17 by DW
+	if (subs !== undefined) {
+		for (var i = 0; i < subs.length; i++) {
+			let sub = subs [i];
+			if (!visit (sub)) {
+				return (false);
+				}
+			if (sub.subs !== undefined) {
+				if (!visitSubs (sub.subs, visit)) {
+					return (false);
+					}
+				}
+			}
+		}
+	return (true); //keep going
 	}
 
 function parse (opmltext, callback) {

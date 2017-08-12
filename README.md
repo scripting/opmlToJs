@@ -20,6 +20,10 @@ A blog post <a href="http://scripting.com/2017/08/07.html#a093801">announcing</a
 
 ### Updates
 
+##### v0.4.8 -- 8/12/6 by DW
+
+Added new exported function <i>visitSubs.</i> I had to write this for an app I'm working on, but it seemed it should be part of this package. 
+
 ##### v0.4.5 -- 8/4/6 by DW
 
 Added new exported function opmlify. It turns an outline structure returned by opmltojs.parse into the equivalent OPML text. It's the other side of parsing, serializing. 
