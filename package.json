@@ -1,9 +1,9 @@
 {
 	"name": "opmltojs",
 	"description": "Pass in some OPML text, get back a JavaScript object.",
-	"author": "Dave Winer <dave@smallpicture.com>",
+	"author": "Dave Winer <dave@scripting.com>",
 	"license": "MIT",
-	"version": "0.4.8",
+	"version": "0.4.9",
 	"main": "opmltojs.js",
 	"repository": {
 		"type": "git",

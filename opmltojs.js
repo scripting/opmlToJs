@@ -1,7 +1,7 @@
-var myProductName = "opmltojs"; myVersion = "0.4.8";
+var myProductName = "opmltojs"; myVersion = "0.4.9";
 
 /*  The MIT License (MIT)
-	Copyright (c) 2014-2017 Dave Winer
+	Copyright (c) 2014-2020 Dave Winer
 	
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
@@ -25,6 +25,7 @@ var myProductName = "opmltojs"; myVersion = "0.4.8";
 exports.parse = parse; 
 exports.opmlify = opmlify; //8/6/17 by DW
 exports.visitSubs = visitSubs; //8/12/17 by DW
+exports.parseWithError = parseWithError; //4/18/20 by DW
 
 const xml2js = require ("xml2js");
 const utils = require ("daveutils");
@@ -51,8 +52,7 @@ function visitSubs (subs, visit) { //8/12/17 by DW
 		}
 	return (true); //keep going
 	}
-
-function parse (opmltext, callback) {
+function parseWithError (opmltext, callback) { //4/18/20 by DW
 	function addGenerator (theOpml) { //follow the example of RSS 2.0
 		try {
 			theOpml.head.generator = myProductName + " v" + myVersion;
@@ -102,17 +102,27 @@ function parse (opmltext, callback) {
 		explicitArray: false
 		};
 	xml2js.parseString (opmltext, options, function (err, jstruct) {
-		var theOutline = {
-			opml: new Object ()
+		if (err) { //4/18/20 by DW
+			callback (err);
 			}
-		convert (jstruct.opml, theOutline.opml);
-		addGenerator (theOutline.opml); //8/6/17 by DW
-		if (isScalar (theOutline.opml.head)) { //8/6/17 by DW
-			theOutline.opml.head = new Object ();
+		else {
+			var theOutline = {
+				opml: new Object ()
+				}
+			convert (jstruct.opml, theOutline.opml);
+			addGenerator (theOutline.opml); //8/6/17 by DW
+			if (isScalar (theOutline.opml.head)) { //8/6/17 by DW
+				theOutline.opml.head = new Object ();
+				}
+			if (isScalar (theOutline.opml.body)) { //8/6/17 by DW
+				theOutline.opml.body = new Object ();
+				}
+			callback (undefined, theOutline);
 			}
-		if (isScalar (theOutline.opml.body)) { //8/6/17 by DW
-			theOutline.opml.body = new Object ();
-			}
+		});
+	}
+function parse (opmltext, callback) {
+	parseWithError (opmltext, function (err, theOutline) {
 		callback (theOutline);
 		});
 	}
