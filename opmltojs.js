@@ -1,7 +1,7 @@
-var myProductName = "opmltojs"; myVersion = "0.4.9";
+var myProductName = "opmltojs"; myVersion = "0.4.10";
 
 /*  The MIT License (MIT)
-	Copyright (c) 2014-2020 Dave Winer
+	Copyright (c) 2014-2021 Dave Winer
 	
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
@@ -64,7 +64,9 @@ function parseWithError (opmltext, callback) { //4/18/20 by DW
 		var atts = sourcestruct ["$"];
 		if (atts !== undefined) {
 			for (var x in atts) {
-				deststruct [x] = atts [x];
+				if (x != "subs") { //1/18/21 by DW
+					deststruct [x] = atts [x];
+					}
 				}
 			delete sourcestruct ["$"];
 			}
