@@ -1,4 +1,4 @@
-var myProductName = "opmltojs"; myVersion = "0.4.10";
+const myProductName = "opmltojs", myVersion = "0.4.11";
 
 /*  The MIT License (MIT)
 	Copyright (c) 2014-2021 Dave Winer
