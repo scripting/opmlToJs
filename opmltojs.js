@@ -1,7 +1,7 @@
-var myProductName = "opmltojs", myVersion = "0.4.12"; 
+var myProductName = "opmltojs", myVersion = "0.4.14"; 
 
 /*  The MIT License (MIT)
-	Copyright (c) 2014-2021 Dave Winer
+	Copyright (c) 2014-2022 Dave Winer
 	
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
@@ -108,18 +108,24 @@ function parseWithError (opmltext, callback) { //4/18/20 by DW
 			callback (err);
 			}
 		else {
-			var theOutline = {
-				opml: new Object ()
+			if (jstruct == null) { //9/20/23 by DW
+				const message = "There was an error parsing the OPML text.";
+				callback ({message});
 				}
-			convert (jstruct.opml, theOutline.opml);
-			addGenerator (theOutline.opml); //8/6/17 by DW
-			if (isScalar (theOutline.opml.head)) { //8/6/17 by DW
-				theOutline.opml.head = new Object ();
+			else {
+				var theOutline = {
+					opml: new Object ()
+					}
+				convert (jstruct.opml, theOutline.opml);
+				addGenerator (theOutline.opml); //8/6/17 by DW
+				if (isScalar (theOutline.opml.head)) { //8/6/17 by DW
+					theOutline.opml.head = new Object ();
+					}
+				if (isScalar (theOutline.opml.body)) { //8/6/17 by DW
+					theOutline.opml.body = new Object ();
+					}
+				callback (undefined, theOutline);
 				}
-			if (isScalar (theOutline.opml.body)) { //8/6/17 by DW
-				theOutline.opml.body = new Object ();
-				}
-			callback (undefined, theOutline);
 			}
 		});
 	}
